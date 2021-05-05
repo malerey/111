@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Button from './Button'
 
 const StyledFooter = styled.footer`
   background-color: blue;
@@ -9,6 +10,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <h1>Soy footer</h1>
+      <Button title="registrarme" />
     </StyledFooter>
   )
 }
