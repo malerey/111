@@ -1,8 +1,9 @@
  
-import React from 'react';
+import React, { createContext } from 'react';
  
-const ThemeContext = React.createContext({
-  esUsuarioPremium: false
+const ThemeContext = createContext({
+  guardarEnElContexto: (param) => console.log(param),
+  estaLogueado: false
 });
  
 export default ThemeContext;

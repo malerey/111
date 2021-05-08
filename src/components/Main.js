@@ -51,12 +51,15 @@ const cards = [
 ]
 
 const Main = () => {
+
   return (
     <MainSection>
       <h1>Soy Main</h1>
       <CardContainer>
       {
-        cards.map(card => <Card title={card.title}/>)
+        cards.map(card => <Card 
+          title={card.title} 
+          />)
       }
       </CardContainer>
     </MainSection>
